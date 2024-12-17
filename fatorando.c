@@ -18,7 +18,7 @@ int calc_fat(int);
 int main()
 {
     system("chcp 65001>null");
-
+    // teste para alteração
     int numero = 5;
     int num_fat = calc_fat(numero);
     printf("\nO fatorial de %d é: %d", numero , num_fat);
