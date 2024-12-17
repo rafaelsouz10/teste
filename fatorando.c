@@ -19,7 +19,7 @@ int main()
 {
     system("chcp 65001>null");
 
-    int numero = 4;
+    int numero = 5;
     int num_fat = calc_fat(numero);
     printf("\nO fatorial de %d é: %d", numero , num_fat);
     return 0;
